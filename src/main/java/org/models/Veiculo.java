@@ -8,6 +8,14 @@ public abstract class Veiculo {
       this.identificacao=identificacao;
       this.valordecompra=valordecompra;
   }
+
+  public String getIdentificacao(){
+      return this.identificacao;
+  }
+
+  public double getValordecompra(){
+      return this.valordecompra;
+  }
     public abstract double calculardiaria();
 
 }
